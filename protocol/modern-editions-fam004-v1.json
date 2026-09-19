@@ -1,0 +1,201 @@
+{
+  "B_activation": "Waiting for internally retained A candidate; no new documentary searches or contacts for this run.",
+  "amendment_id": "A-MODERN-004",
+  "authorization": "User instruction: active A on modern editions, no manuscript prerequisite. Apply frozen mathematical families, do not extend after a negative.",
+  "calibration_scope": "Existing CAL-010/null diagnostics/CTRL-005 human and translation controls passed and checked. Power measured on their declared backgrounds, not re-estimated on the expanded full modern Torah. Current negative remains a bounded observed screen, not universal sensitivity.",
+  "candidate_screen": {
+    "internal_check_required": true,
+    "minimum_length": 16,
+    "p_each_model_max": 0.01
+  },
+  "change": "Replace selected digital DSS source units by all5853OSHB verses. Preserve full common-normalized SBLGNT,768rules, grouping/length/selection, screening and both999-draw reference models. Raise only source indexing resource guard from5000000 to10000000 before scoring, because raw within-source counts require8257152starts. Other native code and1million compatible-seed guard unchanged.",
+  "code_hashes": {
+    "biblelab/__init__.py": "be5458b9a5b67243e0a2088f3fbea59e4019fd57dbeccad95048f3ac1e1dc781",
+    "biblelab/editions.py": "d2886f0344236200ca309b64ba8e049c262c2a5998dafbb044d15a8bb22e8b7e",
+    "biblelab/letters.py": "5313662ac4a720397973d4463c340801869a2f998f8175f1e177bd89d9503798",
+    "biblelab/modern_contextual.py": "5f1694d2bb2ddc604683236b380e91f2b0b8a105815a4024ad5773295fc22f1b",
+    "biblelab/modern_local.py": "6140edaf71fc928c27598a317a6b7c6190e3f3ccdb1a66d0e4a8cd58824f978b",
+    "biblelab/modern_shared.py": "0669196a83afa2f3eb00f00592545e9f3ff630b12421fc0bcd16401a1d8a5018",
+    "biblelab/registry.py": "567f9a74952bd19f1f6dbb5e64265ec8bcc628d4e7c676d38a7dbb0bffb90006",
+    "biblelab/sources.py": "7c7c687c8ca07a4085e7e7e52f03644d139b7aedad87b6551874d1bfaf5d2a69",
+    "native/contextual_match.cpp": "d30c49a7dce7337ae4d3e66e5749a63d99f0c8a5de47bd4a4944b6042b2284a6",
+    "native/contextual_modern_match.cpp": "f5d1e8382d7f04d2cfa8b4b83cbf8afa997136bb1e1b5ffaa4bcb555aa538700",
+    "native/contextual_oracle.cpp": "7ebe8065715778e9dcc8d11d21baeb06d028069ebb7b7a85fc72b8df4b4a3cd4",
+    "native/local_match.cpp": "27e81e6dfdfc1b3a649f976c6bd3731ba5af8ec65809c54826643a3bd0aaa535",
+    "native/reference_replay.cpp": "430c97c2a07933788a403b1d0069ba2e862c29ce31836c9d9ae9f3c85bffd2ad",
+    "protocol/contextual-affine-v1.json": "923304690a66c3c268ca63b1cda08f484e8f3de39a4971dd7740a9a4f4fcd895",
+    "protocol/contextual-exploration-v1.json": "d0e1de085f7db2ca723abd76bd0e57ff37619dd619313ea58caff6866c65dadf",
+    "protocol/modern-edition-source-lock-v1.json": "fa31c6c69da45d4e7c97d8b5cf838d814d593117225e6b76efea6b7ef5ec43c0",
+    "tests/test_modern_contextual.py": "e86719a07c091a56e898408d14e53d71ed2ceadd13b0729cb95e4d2b304125c5",
+    "tools/validate_modern_contextual.py": "926e310bd3356b8da50ab3e0036e87367c635806a85b28455453b2fb1d283024",
+    "tools/validate_shared.py": "180ae6fbc54f4cfffc88c71584994cd0ceaaf5ba0934bdb27a3b3d72e6c207d9"
+  },
+  "coefficients": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "created_utc": "2026-09-19T21:00:54.846224+00:00",
+  "directions": [
+    1,
+    -1
+  ],
+  "existing_diagnostics": {
+    "contextual-calibration-algorithm-check": {
+      "path": "reports/contextual-calibration-algorithm-check.json",
+      "sha256": "53a1f2874c903f8fe331d3a72e9bb61b354a8f5743e7b4a6b331f03faf94df63"
+    },
+    "contextual-calibration-v1": {
+      "path": "reports/contextual-calibration-v1.json",
+      "sha256": "ddf968ba909f32cffd33c3b8caa76e6f1056dd1296bac2c69c86162a5a052363"
+    },
+    "contextual-controls-algorithm-check": {
+      "path": "reports/contextual-controls-algorithm-check.json",
+      "sha256": "c4569a202f72afeb3365c47650972bb792f52e8ef1fe628a7f84715f2113eb62"
+    },
+    "contextual-controls-v1": {
+      "path": "reports/contextual-controls-v1.json",
+      "sha256": "c3f9dac4b9898c9d16775f391cfb7b17837f802d06bf36f6cdc12bece0c01ed7"
+    },
+    "contextual-null-algorithm-check": {
+      "path": "reports/contextual-null-algorithm-check.json",
+      "sha256": "57082534b8e41d38a2753c1a9fb8eb332ba6531d1e40a839e0bdaf4f3a9d0a00"
+    },
+    "contextual-null-v1": {
+      "path": "reports/contextual-null-v1.json",
+      "sha256": "9d447abd013c18f7929bfe1421a28a6c8d6f309722ecc1ddc2652057e89db0b4"
+    }
+  },
+  "family": "FAM-004",
+  "family_definition": "protocol/contextual-affine-v1.json",
+  "family_sha256": "923304690a66c3c268ca63b1cda08f484e8f3de39a4971dd7740a9a4f4fcd895",
+  "family_size": 768,
+  "id": "EXP-015",
+  "input": {
+    "all_verses_reextracted_from_raw_xml": true,
+    "boundaries": "Every complete modern verse is one unique group; no verse concatenation, selection or historical filter.",
+    "counts": {
+      "left_groups": 5853,
+      "left_letters": 304850,
+      "left_units": 5853,
+      "right_groups": 7939,
+      "right_letters": 679879,
+      "right_units": 7939
+    },
+    "input_path": "data/derived/modern-contextual-v1/input.txt",
+    "input_sha256": "f186da3c742e53e5889da38416fc59aabd5952a79147bce5cc20eaf9078a3614",
+    "no_dss_files_read": true,
+    "normalization": "COMMON-001: only U+0345-derived iotas removed; written iotas preserved; Hebrew finals and Greek final sigma folded.",
+    "previous_crosswalk_path": "data/derived/modern-shared-v1/greek-crosswalk.json",
+    "previous_crosswalk_sha256": "b5d9952000c85c7a928bbb3283b774072bcaa0480c6bf1cde8aeb2787142405e",
+    "previous_input_sha256": "f186da3c742e53e5889da38416fc59aabd5952a79147bce5cc20eaf9078a3614",
+    "source_hashes": {
+      "data/raw/oshb/wlc/Deut.xml": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "data/raw/oshb/wlc/Exod.xml": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "data/raw/oshb/wlc/Gen.xml": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "data/raw/oshb/wlc/Lev.xml": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "data/raw/oshb/wlc/Num.xml": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "data/raw/sblgnt/data/sblgnt/xml/1Cor.xml": "5a12d44dd6a9c7c236da21dc85a1d60915c54c988c59ba456f27bf528da1812b",
+      "data/raw/sblgnt/data/sblgnt/xml/1John.xml": "3786d543f13a83d0e5f3cc1fd645c3b9e240a4c14fd412e0b2fa304d27d4a66b",
+      "data/raw/sblgnt/data/sblgnt/xml/1Pet.xml": "82693ac93851f9f415fa126508f6e893dfb4b2f8131ee953c822a342eb78d5fa",
+      "data/raw/sblgnt/data/sblgnt/xml/1Thess.xml": "22a5dcf8e0cc80d06fcb8fcd01aef72860058cfab4b7b42cfa94dd229e2c7065",
+      "data/raw/sblgnt/data/sblgnt/xml/1Tim.xml": "7078cf18cf4325e4fb093785da774b48cc8306fd24dd2aa00041335c1bc88efc",
+      "data/raw/sblgnt/data/sblgnt/xml/2Cor.xml": "897a92f3f010f796b8549e643c0ae96957827020a890808a689c6ba389085a43",
+      "data/raw/sblgnt/data/sblgnt/xml/2John.xml": "132d3e497afb40247097175b9de4a8791de14366a0c5a923ed59f05a7c0d9586",
+      "data/raw/sblgnt/data/sblgnt/xml/2Pet.xml": "59612036f3847ddd1e6f5435b62458a9c1aa7eff4c6fc6107659e980346275b2",
+      "data/raw/sblgnt/data/sblgnt/xml/2Thess.xml": "3b7fbae3d238039f11bb599e1b99139a2d2a8626f293ccefc601d1a50a03d433",
+      "data/raw/sblgnt/data/sblgnt/xml/2Tim.xml": "6d3add4060e870089d71e4621bcec5cc12759ebb4689fe6864368ae56c76b6fc",
+      "data/raw/sblgnt/data/sblgnt/xml/3John.xml": "389c6751dc8e5de45c9173fdd3b499aa8574d425345055723ff2a46b2d8d173f",
+      "data/raw/sblgnt/data/sblgnt/xml/Acts.xml": "5040d5a8570ce8f391209f228707c560e83fccc439f364d0a8baf89666025ea3",
+      "data/raw/sblgnt/data/sblgnt/xml/Col.xml": "87079753db107d3034b8af8a91ccb0495da393389a02df4588cff3a4de4cd837",
+      "data/raw/sblgnt/data/sblgnt/xml/Eph.xml": "9edf592842f0a94d35790ad999ed51049a19510178bd2b858c3f29849d44df45",
+      "data/raw/sblgnt/data/sblgnt/xml/Gal.xml": "02188ec87b20a983424693971f2710b7b77c53ae0a7d6c4bd95a7fc293f2f17a",
+      "data/raw/sblgnt/data/sblgnt/xml/Heb.xml": "50ee82c41b032b4b786ca7790eb3ce412865bd80e823d9cfdc22a812a1d6a865",
+      "data/raw/sblgnt/data/sblgnt/xml/Jas.xml": "5cb6fdeefb734ef842e102938f0f10791415276ae09cbd33215a359e1025f7e5",
+      "data/raw/sblgnt/data/sblgnt/xml/John.xml": "11fa4ec61127f109f4582845737963dc66a532e33dca7d489875b9dd91da00e2",
+      "data/raw/sblgnt/data/sblgnt/xml/Jude.xml": "b83680c0d23b032273ec0e0c858f3c24ba684114b78ebddb2475dd78aac7165b",
+      "data/raw/sblgnt/data/sblgnt/xml/Luke.xml": "960c0f7743f6ee68b7ee341991b76e14e83143eac4ba1f2df179327ec4bae8d5",
+      "data/raw/sblgnt/data/sblgnt/xml/Mark.xml": "5901ccefcd7d9aedfaf228b1f99c3a13f37b4509c1b38d16123a860247a59d76",
+      "data/raw/sblgnt/data/sblgnt/xml/Matt.xml": "98030ff7ddec7d1b89811c912b64e52a6c6a5806048e619abc708fe19a416424",
+      "data/raw/sblgnt/data/sblgnt/xml/Phil.xml": "2f8933cdf0f8f459a6e192ad99c8aa07cb06e94d400875f88e64290bf489ed54",
+      "data/raw/sblgnt/data/sblgnt/xml/Phlm.xml": "5e055c7dbe6b8326b559f6d7d135a39e6da0b499271f1eec6eae87fd93590ef3",
+      "data/raw/sblgnt/data/sblgnt/xml/Rev.xml": "f6ba340dfd9010436aac55a17246ed45ef24c6b8e4510dc4bcb62c0a9ac4bc83",
+      "data/raw/sblgnt/data/sblgnt/xml/Rom.xml": "99f8cced61efe841d146bd1e0c67333d7a4cca78a55e14da8c9390166e0a6209",
+      "data/raw/sblgnt/data/sblgnt/xml/Titus.xml": "4c66c26c8ce316056d0423018d3497501e1a9ef033a1fc1ebd5829ba2d177fd9"
+    },
+    "source_indexed_starts": 8257152,
+    "units_path": "data/derived/modern-contextual-v1/units.json",
+    "units_sha256": "72191bb7528f8588e22349f67f55e9497753b9bd8eed844095993dab218f509d"
+  },
+  "intercepts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "internal_verification": "Reextract every modern unit from32raw XML sources and confirm all addresses/counts. Unchanged separate native literal-rule oracle checks all768observed scores,maximizers,seed pairs; Python verifies all literal witnesses. Oracle rescans first/last reference input per model(4of1998); remaining1994not independently rescanned. Regenerate4saved inputs from declared seed using existing generator and recompute both inclusive tails. Same-system internal verification, not external scientific replication.",
+  "maximum_length": 32,
+  "minimum_length": 8,
+  "next_after_negative": "Record scoped rien, then FAM-005 unchanged. Never expand FAM-004 because it is negative.",
+  "p_formula": "Inclusive(1+reference maxima>=observed)/(999+1), both models required. Exploratory conditional diagnostic; not overall study significance or divine-origin probability.",
+  "positive_followup": "Freeze every maximizing parameter set and full observed result immediately for an alert; stop family advancement. Before retention enumerate tied occurrences, assess description costs and human reuse/translation explanations. Historical B only for an internally retained numerical candidate. Reserved-data tests and external replication remain outstanding; no current input is reserved.",
+  "pre_execution_checks": {
+    "all_units_reextracted": true,
+    "historical_files_required": false,
+    "known_resource_guard_compatibility_resolved_before_target": true,
+    "native_change_only_one_resource_constant": true,
+    "new_source_indexed_starts": 8257152,
+    "prior180frozen_sources_preserved": true,
+    "software_tests_passed": 13
+  },
+  "prior_target_protocol": "protocol/contextual-exploration-v1.json",
+  "prior_target_protocol_sha256": "d0e1de085f7db2ca723abd76bd0e57ff37619dd619313ea58caff6866c65dadf",
+  "randomization": "Single std::mt19937_64 stream with existing exact rejection-bounded Fisher-Yates. Reselect entire family/positions/groups/length in each corpus. Save first and last input of each model.",
+  "reference_draws_per_model": 999,
+  "reference_models": [
+    "words: independent uniform labelled whole-word permutation within each Greek verse",
+    "word_types: one global uniform bijection of Greek word types within length, consistently applied to all occurrences"
+  ],
+  "reference_order": [
+    "words",
+    "word_types"
+  ],
+  "resource_guards": {
+    "compatible_seed_pairs_per_scan": 1000000,
+    "indexed_source_starts": 10000000,
+    "on_failure": "Explicit incomplete attempt with preserved partial output/error. No negative or silent restart/truncation; any recovery requires a prospective amendment and remains in the history."
+  },
+  "rule": "g_i=(a*h_i+b*h_(i+1)+c) mod24; zero-based fixed alphabet ranks, nonnegative remainder. Read source in one common direction.",
+  "search": "Maximum Greek length8..32 for one rule holding across three distinct source verse groups and three distinct Greek verse groups. K outputs require K+1consecutive Hebrew letters. Include degeneracies, repeated wording and all768rules. No gaps, joined verses, source wrap, output reversal or diversity exclusion. Output every observed rule score, all maximizing IDs and one deterministic matching triple per maximizing rule. Score0 means no eligible triple in8..32; score32 is censored.",
+  "seed": 202609195015,
+  "trial_accounting": {
+    "frozen_families": 9,
+    "future_correction": "All prior DSS/modern experiments, failed attempts and recovery/normalization choices remain in cumulative history. Executions are not independent experiments. No reset, confirmation budget or correction by simple factor9.",
+    "new_mathematical_families": 0,
+    "prior_completed": 13,
+    "prior_incomplete": 1,
+    "prior_target_executions": 14,
+    "this_target_execution": 15
+  }
+}

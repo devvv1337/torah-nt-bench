@@ -1,0 +1,16 @@
+{
+  "all_input_units_roundtrip_checked": true,
+  "candidate_retained": false,
+  "id": "CHECK-EXP-012",
+  "independent_scientific_replication": false,
+  "longer_length_checked": 22,
+  "maximum": 21,
+  "maximum_occurrences_checked": 1,
+  "method": "Python full-length predecessor-distance index, distinct from C++ canonical seed/extension; all observed maxima and absence at max+1.",
+  "pass": true,
+  "reference_scans_independently_reexecuted": 0,
+  "report_sha256": "9820998ff94d86e37ebcc78871c6c82fc7d50ce4d2f20533cce370a3ebd688fb",
+  "saved_reference_tails_checked": 2,
+  "source_files_verified": 32,
+  "verdict": "rien"
+}

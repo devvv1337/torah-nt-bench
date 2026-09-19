@@ -1,0 +1,13 @@
+{
+  "corpus_text_sha256_verified_against_original_commitment": true,
+  "files": {
+    "FAM-001-definition.json": "c5c6eaef0173f922d84395dbe28cb307e66d45ce27acffc9b7cccb0513de5abd",
+    "README.md": "48872b4575ac5ee377040d7a364fea0d40c2d34b08d4547e83c790fa51698338",
+    "nt.txt": "be8066c74edaa4cf846b589d460bf44d0a1274292d4ac9cb77ede947b5a25f20",
+    "provenance.json": "b71099b2d535c7d6dfc5873bcebf56820bc8caa4409fd6c334a017327bb8fb12",
+    "reference-orders.json": "1e9a1c335e73c9d9df582ae935c4b9a8abdddadb156f5bc8deb1cc68c8493a32",
+    "torah.txt": "fe3d9223501d3af19a5e7208835b213dac833192b00354fe741d882dc9d42b8e"
+  },
+  "reference_count": 4999,
+  "rule_count": 3072
+}

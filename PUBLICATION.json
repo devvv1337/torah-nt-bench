@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/devvv1337/torah-nt-bench",
+  "prepared_utc": "2026-09-19T22:24:55.690474+00:00",
+  "version": "V3.1",
+  "publication_status": "Prepared payload; verify remote commit and tree before claiming publication",
+  "archive_name": "modern-editions-release-v3-1.zip",
+  "archive_sha256": "b7558a03df54a3d88b5bb9de59f95259b53a3d3321d9ec0e9404f5963cce823a",
+  "manifest_sha256": "5637b2b226801e3e6a6b403607eb4fa76f5deba2a145fef69c749314917bf1c2",
+  "core_files": 106,
+  "published_modern_families": 6,
+  "frozen_mathematical_families": 9,
+  "retained_candidates": 0,
+  "target_runs_through_this_snapshot": 17,
+  "complete_target_runs": 16,
+  "incomplete_target_runs": 1,
+  "clean_package_tests_passed": 27,
+  "raw_XML_sources_freshly_downloaded_and_verified": 32,
+  "primary_reference_maxima_reproduced": 3996,
+  "independent_scientific_replication": false,
+  "AI_assistance": "OpenAI Codex generated implementation, exploratory analyses and internal checks. No independent human scholarly review or fresh reserved-data confirmation is claimed.",
+  "chronology": "This public deposit occurs after the exploratory outcomes. It does not externally preregister past protocols or turn exposed data into confirmation data.",
+  "internal_check_report_sha256": "590e5148b2990972d7cc9cb6951348303c3bc9a1a30f8ec261c9821972cf3a5d"
+}

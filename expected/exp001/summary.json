@@ -1,0 +1,83 @@
+{
+  "experiment": "EXP-001",
+  "family": "FAM-001",
+  "definition_version": "1.1",
+  "independence": "Authored from the input packet only; original results were not requested or read before sealing.",
+  "rule_count": 3072,
+  "reference_count": 4999,
+  "hebrew_length": 304850,
+  "greek_full_length": 687379,
+  "covered_greek_length": 687376,
+  "unit_length": 42961,
+  "omitted_greek_count": 3,
+  "omitted_greek_letters": "των",
+  "maximum_centered_score": 7941,
+  "all_maximum_score_rules": [
+    {
+      "rule_index": 2792,
+      "direction": -1,
+      "offset": 6,
+      "multiplier": 13,
+      "intercept": 8,
+      "centered_score": 7941,
+      "matches": 27313,
+      "incorrect": 660063,
+      "matrix_total": 429067
+    }
+  ],
+  "best_raw_match_count": 33786,
+  "all_best_raw_match_rules": [
+    {
+      "rule_index": 1523,
+      "direction": 1,
+      "offset": 7,
+      "multiplier": 23,
+      "intercept": 11,
+      "centered_score": 4395,
+      "matches": 33786,
+      "incorrect": 653590,
+      "matrix_total": 536181
+    }
+  ],
+  "inclusive_exceedances": 4043,
+  "strict_exceedances": 4043,
+  "equal_reference_maxima": 0,
+  "family_p_fraction": "4044/5000",
+  "family_p": 0.8088,
+  "reference_maximum_min": 6595,
+  "reference_maximum_max": 13685,
+  "exact_candidate_screen": {
+    "family_p_at_most_0_01": false,
+    "exactly_one_best_scoring_rule": true,
+    "zero_incorrect_predictions": false,
+    "passes": false
+  },
+  "description_cost": {
+    "conditional_parameter_bits": 12,
+    "canonical_rule_json_format": "UTF-8, sorted keys direction/intercept/multiplier/offset, compact separators, no trailing newline per record; parameter object conditional on supplied grammar.",
+    "maximum_score_rule_json": [
+      {
+        "rule_index": 2792,
+        "json": "{\"direction\":-1,\"intercept\":8,\"multiplier\":13,\"offset\":6}",
+        "bytes": 57
+      }
+    ],
+    "grammar_file_bytes": 4087,
+    "decoder_cpp_source_bytes": 8821,
+    "runner_python_source_bytes": 19682,
+    "input_selection_normalization_protocol_readme_bytes": 3232,
+    "provided_provenance_bytes": 49155,
+    "provided_input_manifest_bytes": 675,
+    "upstream_source_manifest_bytes": "unavailable in permitted input packet; only its declared SHA-256 is present",
+    "not_absolute_kolmogorov_complexity": true
+  },
+  "limits": [
+    "Computational replication on the same supplied transcriptions, not validation on held-out data or a palaeographic audit.",
+    "Source provenance and historical normalization are supplied declarations; their raw upstream files were outside permitted input scope.",
+    "The 4999 permutations reproduce a historical PRNG stream schedule and are not a newly independent random sample.",
+    "The null conditions on the observed 16 Greek units and predictions; it is not a universal model of human authorship.",
+    "No alternative normalization, boundary, target selection or rule family was tried.",
+    "No operational ambiguity remained in the supplied formulas. Rule indices and reference indices are reported zero-based; ties are retained.",
+    "The supplied definition does not prescribe a canonical rule-object schema; the compact four-parameter encoding reported here is explicit and conditional on that grammar."
+  ]
+}

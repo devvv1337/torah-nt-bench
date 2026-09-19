@@ -1,0 +1,240 @@
+{
+  "B_activation": "Waiting for internally retained A candidate; no documentary search or contact in this numerical execution.",
+  "amendment_id": "A-MODERN-005",
+  "authorization": "User instruction to continue exactly the frozen families on complete modern editions; historical B is not a prerequisite.",
+  "base_classes": 292,
+  "batching": {
+    "failure": "Preserve receipts and raw partials. One failed batch prevents a family verdict; drain active processes and launch no further batches. No automatic retry/restart. Further recovery needs a prospective amendment; never count computational batches as independent trials.",
+    "max_actual_indexed_starts_per_batch": 8257152,
+    "max_indexed_starts_per_batch": 10000000,
+    "maximum_concurrent_native_processes": 2,
+    "partition": "Ten consecutive half-open base intervals[0,32),...,[256,288),[288,292), all24intercepts per base.",
+    "preservation": "Every parameter code belongs to exactly one batch and retains the full source and destination corpora. Local positional traversal for each rule is unchanged, so group-edge maxima, all per-rule scores and deterministic witnesses are unchanged. Concatenate disjoint observed vectors; maximizing global witnesses come from exactly the batches whose local maximum equals the global maximum.",
+    "references": "Each batch resets to the SAME frozen RNG seed and original input. Scans never consume RNG; words999thenword_types999 use identical draws and corpora in every batch. Compare40saved endpoint files across batches. For EACH draw and opcode take the maximum over all batches, then the maximum of opcodes. Never compute a candidate p within a batch.",
+    "seed_counts": "Record every batch/reference seed-pair count. Enforce whole-family sum<=5000000for observation AND every reference after merge; no increased compatible-seed allowance via batching."
+  },
+  "calibration_scope": "CAL-011 and CTRL-006 checked on their declared backgrounds, plus14software tests and known768-rule full-modern preparation check. These establish implementation diagnostics, not newly measured power for all7008codes on expanded modern Torah.",
+  "candidate_screen": {
+    "internal_check_required": true,
+    "minimum_length": 16,
+    "p_each_model_max": 0.01
+  },
+  "change": "Replace selected DSS digital source units by all5853OSHB verses; retain common-policy SBLGNT words/groups. Implement exact base-class partition to cover all74410992source starts with bounded simultaneous memory. All7008program codes, coefficients, spans, directions, thresholds, reference models and number of draws preserved. No new family or mathematical extension.",
+  "code_hashes": {
+    "biblelab/__init__.py": "be5458b9a5b67243e0a2088f3fbea59e4019fd57dbeccad95048f3ac1e1dc781",
+    "biblelab/editions.py": "d2886f0344236200ca309b64ba8e049c262c2a5998dafbb044d15a8bb22e8b7e",
+    "biblelab/letters.py": "5313662ac4a720397973d4463c340801869a2f998f8175f1e177bd89d9503798",
+    "biblelab/modern_contextual.py": "5f1694d2bb2ddc604683236b380e91f2b0b8a105815a4024ad5773295fc22f1b",
+    "biblelab/modern_local.py": "6140edaf71fc928c27598a317a6b7c6190e3f3ccdb1a66d0e4a8cd58824f978b",
+    "biblelab/modern_programs.py": "3319c67b1f25005817b6e9904ff5d99a920c9a530a9780dab027d0bfbce26cb4",
+    "biblelab/modern_shared.py": "0669196a83afa2f3eb00f00592545e9f3ff630b12421fc0bcd16401a1d8a5018",
+    "biblelab/registry.py": "567f9a74952bd19f1f6dbb5e64265ec8bcc628d4e7c676d38a7dbb0bffb90006",
+    "biblelab/short_programs.py": "86c2ec657775c0cdfeeb52f26c2e4955c7a7c1c55f9f43b4fadcfd3a090ad1b7",
+    "biblelab/sources.py": "7c7c687c8ca07a4085e7e7e52f03644d139b7aedad87b6551874d1bfaf5d2a69",
+    "native/contextual_match.cpp": "d30c49a7dce7337ae4d3e66e5749a63d99f0c8a5de47bd4a4944b6042b2284a6",
+    "native/local_match.cpp": "27e81e6dfdfc1b3a649f976c6bd3731ba5af8ec65809c54826643a3bd0aaa535",
+    "native/reference_replay.cpp": "430c97c2a07933788a403b1d0069ba2e862c29ce31836c9d9ae9f3c85bffd2ad",
+    "native/short_programs.cpp": "835bd14d3afe3539d50a5e014384216b8c5ca4ccd3af160cc40a91379dc78055",
+    "native/short_programs_batch.cpp": "e8fb5f31a5c781e2c3c5b18c17a60218cbeabe2953990aa60477c78a2d8f8feb",
+    "native/short_programs_oracle.cpp": "52cb65dce5622f3a20ad505a7f17cb8c1a2f0092712f5ac90d69e51ab3df6c9f",
+    "protocol/modern-edition-source-lock-v1.json": "fa31c6c69da45d4e7c97d8b5cf838d814d593117225e6b76efea6b7ef5ec43c0",
+    "protocol/modern-programs-preparation-v1.json": "196826ac8f7295c2a9e6a346ff50432215e15f2a6ba3a3239119466863f616b5",
+    "protocol/short-programs-exploration-v1.json": "4d121926c9417f73de8e9d86c6a751b805f8d577c878e8fa3c788477cc107bd0",
+    "protocol/short-programs-v1.json": "9bbf141280fcd5878e38a7c156757d9006e4516efa115d560e565065a9091c6e",
+    "tests/test_modern_programs.py": "8825b899140a0ac8586e5c2aae21a96b6f5e88a10df313dbf5b791978d68ec9d",
+    "tools/validate_modern_programs.py": "3e0ea2ab1e67d66bfc175ca99b6e7be179f772c7519e5d2638d69ef1e5f79190",
+    "tools/validate_shared.py": "180ae6fbc54f4cfffc88c71584994cd0ceaaf5ba0934bdb27a3b3d72e6c207d9"
+  },
+  "created_utc": "2026-09-19T21:29:39.823645+00:00",
+  "existing_diagnostics": {
+    "modern-programs-preparation-check-v1": {
+      "path": "reports/modern-programs-preparation-check-v1.json",
+      "sha256": "e138e2c245178d246007c00e2a11c3d075fe0e065c583fcd8ea4048e40793765"
+    },
+    "short-programs-calibration-algorithm-check": {
+      "path": "reports/short-programs-calibration-algorithm-check.json",
+      "sha256": "66f2d38b82839571a497b37d53a4b9b5d7e06a341fd82d1529110dc717dd1caf"
+    },
+    "short-programs-calibration-v1": {
+      "path": "reports/short-programs-calibration-v1.json",
+      "sha256": "be218b7481711ca7c0604f2f9444cccf96ae04328c55ad1bfd98c4568e099ca7"
+    },
+    "short-programs-controls-algorithm-check": {
+      "path": "reports/short-programs-controls-algorithm-check.json",
+      "sha256": "342ecdaf4edaa43a5737c09b7c35decdea71e9c23f5055a964b802f3e5a5f7c1"
+    },
+    "short-programs-controls-v1": {
+      "path": "reports/short-programs-controls-v1.json",
+      "sha256": "1e58a916cf4aae0c5b9fa7c9bd3cdd7b836773e5e680cff6172781bca22d42f8"
+    }
+  },
+  "family": "FAM-005",
+  "family_definition": "protocol/short-programs-v1.json",
+  "family_sha256": "9bbf141280fcd5878e38a7c156757d9006e4516efa115d560e565065a9091c6e",
+  "family_size": 7008,
+  "id": "EXP-016",
+  "input": {
+    "all_units_reextracted_from_raw_xml": true,
+    "batches": [
+      {
+        "begin": 0,
+        "end": 32,
+        "index": 0,
+        "indexed_starts": 8257152
+      },
+      {
+        "begin": 32,
+        "end": 64,
+        "index": 1,
+        "indexed_starts": 8070048
+      },
+      {
+        "begin": 64,
+        "end": 96,
+        "index": 2,
+        "indexed_starts": 8070048
+      },
+      {
+        "begin": 96,
+        "end": 128,
+        "index": 3,
+        "indexed_starts": 8070048
+      },
+      {
+        "begin": 128,
+        "end": 160,
+        "index": 4,
+        "indexed_starts": 8070048
+      },
+      {
+        "begin": 160,
+        "end": 192,
+        "index": 5,
+        "indexed_starts": 8070048
+      },
+      {
+        "begin": 192,
+        "end": 224,
+        "index": 6,
+        "indexed_starts": 8257152
+      },
+      {
+        "begin": 224,
+        "end": 256,
+        "index": 7,
+        "indexed_starts": 8257152
+      },
+      {
+        "begin": 256,
+        "end": 288,
+        "index": 8,
+        "indexed_starts": 8257152
+      },
+      {
+        "begin": 288,
+        "end": 292,
+        "index": 9,
+        "indexed_starts": 1032144
+      }
+    ],
+    "boundaries": "Every complete modern verse is one unique group; no verse concatenation, selection or historical filter.",
+    "counts": {
+      "left_groups": 5853,
+      "left_letters": 304850,
+      "left_units": 5853,
+      "right_groups": 7939,
+      "right_letters": 679879,
+      "right_units": 7939
+    },
+    "indexed_source_starts": 74410992,
+    "input_path": "data/derived/modern-programs-v1/input.txt",
+    "input_sha256": "f186da3c742e53e5889da38416fc59aabd5952a79147bce5cc20eaf9078a3614",
+    "no_dss_files_read": true,
+    "normalization": "COMMON-001: only U+0345-derived iotas removed; written iotas preserved; Hebrew finals and Greek final sigma folded.",
+    "source_hashes": {
+      "data/raw/oshb/wlc/Deut.xml": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "data/raw/oshb/wlc/Exod.xml": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "data/raw/oshb/wlc/Gen.xml": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "data/raw/oshb/wlc/Lev.xml": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "data/raw/oshb/wlc/Num.xml": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "data/raw/sblgnt/data/sblgnt/xml/1Cor.xml": "5a12d44dd6a9c7c236da21dc85a1d60915c54c988c59ba456f27bf528da1812b",
+      "data/raw/sblgnt/data/sblgnt/xml/1John.xml": "3786d543f13a83d0e5f3cc1fd645c3b9e240a4c14fd412e0b2fa304d27d4a66b",
+      "data/raw/sblgnt/data/sblgnt/xml/1Pet.xml": "82693ac93851f9f415fa126508f6e893dfb4b2f8131ee953c822a342eb78d5fa",
+      "data/raw/sblgnt/data/sblgnt/xml/1Thess.xml": "22a5dcf8e0cc80d06fcb8fcd01aef72860058cfab4b7b42cfa94dd229e2c7065",
+      "data/raw/sblgnt/data/sblgnt/xml/1Tim.xml": "7078cf18cf4325e4fb093785da774b48cc8306fd24dd2aa00041335c1bc88efc",
+      "data/raw/sblgnt/data/sblgnt/xml/2Cor.xml": "897a92f3f010f796b8549e643c0ae96957827020a890808a689c6ba389085a43",
+      "data/raw/sblgnt/data/sblgnt/xml/2John.xml": "132d3e497afb40247097175b9de4a8791de14366a0c5a923ed59f05a7c0d9586",
+      "data/raw/sblgnt/data/sblgnt/xml/2Pet.xml": "59612036f3847ddd1e6f5435b62458a9c1aa7eff4c6fc6107659e980346275b2",
+      "data/raw/sblgnt/data/sblgnt/xml/2Thess.xml": "3b7fbae3d238039f11bb599e1b99139a2d2a8626f293ccefc601d1a50a03d433",
+      "data/raw/sblgnt/data/sblgnt/xml/2Tim.xml": "6d3add4060e870089d71e4621bcec5cc12759ebb4689fe6864368ae56c76b6fc",
+      "data/raw/sblgnt/data/sblgnt/xml/3John.xml": "389c6751dc8e5de45c9173fdd3b499aa8574d425345055723ff2a46b2d8d173f",
+      "data/raw/sblgnt/data/sblgnt/xml/Acts.xml": "5040d5a8570ce8f391209f228707c560e83fccc439f364d0a8baf89666025ea3",
+      "data/raw/sblgnt/data/sblgnt/xml/Col.xml": "87079753db107d3034b8af8a91ccb0495da393389a02df4588cff3a4de4cd837",
+      "data/raw/sblgnt/data/sblgnt/xml/Eph.xml": "9edf592842f0a94d35790ad999ed51049a19510178bd2b858c3f29849d44df45",
+      "data/raw/sblgnt/data/sblgnt/xml/Gal.xml": "02188ec87b20a983424693971f2710b7b77c53ae0a7d6c4bd95a7fc293f2f17a",
+      "data/raw/sblgnt/data/sblgnt/xml/Heb.xml": "50ee82c41b032b4b786ca7790eb3ce412865bd80e823d9cfdc22a812a1d6a865",
+      "data/raw/sblgnt/data/sblgnt/xml/Jas.xml": "5cb6fdeefb734ef842e102938f0f10791415276ae09cbd33215a359e1025f7e5",
+      "data/raw/sblgnt/data/sblgnt/xml/John.xml": "11fa4ec61127f109f4582845737963dc66a532e33dca7d489875b9dd91da00e2",
+      "data/raw/sblgnt/data/sblgnt/xml/Jude.xml": "b83680c0d23b032273ec0e0c858f3c24ba684114b78ebddb2475dd78aac7165b",
+      "data/raw/sblgnt/data/sblgnt/xml/Luke.xml": "960c0f7743f6ee68b7ee341991b76e14e83143eac4ba1f2df179327ec4bae8d5",
+      "data/raw/sblgnt/data/sblgnt/xml/Mark.xml": "5901ccefcd7d9aedfaf228b1f99c3a13f37b4509c1b38d16123a860247a59d76",
+      "data/raw/sblgnt/data/sblgnt/xml/Matt.xml": "98030ff7ddec7d1b89811c912b64e52a6c6a5806048e619abc708fe19a416424",
+      "data/raw/sblgnt/data/sblgnt/xml/Phil.xml": "2f8933cdf0f8f459a6e192ad99c8aa07cb06e94d400875f88e64290bf489ed54",
+      "data/raw/sblgnt/data/sblgnt/xml/Phlm.xml": "5e055c7dbe6b8326b559f6d7d135a39e6da0b499271f1eec6eae87fd93590ef3",
+      "data/raw/sblgnt/data/sblgnt/xml/Rev.xml": "f6ba340dfd9010436aac55a17246ed45ef24c6b8e4510dc4bcb62c0a9ac4bc83",
+      "data/raw/sblgnt/data/sblgnt/xml/Rom.xml": "99f8cced61efe841d146bd1e0c67333d7a4cca78a55e14da8c9390166e0a6209",
+      "data/raw/sblgnt/data/sblgnt/xml/Titus.xml": "4c66c26c8ce316056d0423018d3497501e1a9ef033a1fc1ebd5829ba2d177fd9"
+    },
+    "units_path": "data/derived/modern-programs-v1/units.json",
+    "units_sha256": "72191bb7528f8588e22349f67f55e9497753b9bd8eed844095993dab218f509d"
+  },
+  "internal_verification": "Reextract32raw XML files; verify batch partition/input/receipts, sumcounts and whole-family observed/reference max aggregation. Separate absolute-value oracle independently evaluates all7008observed scores, every opcode maximum, seed counts and all maximizing literal witnesses; same oracle rescans4saved reference corpora and their three opcode maxima/seed counts. Other1994reference scans are not independently repeated. Replay40endpoint files from the declared RNG, check model invariants and both tails. No external scientific replication.",
+  "mathematical_definition": "Exactly FAM-005: pair/triple/product modulo24 formulas and frozen enumeration IDs. K outputs use K+span-1contiguous Hebrew letters, shared whole-unit direction. Same complete program on three distinct source and three distinct Greek verse groups. Include constants, periodic cases and duplicate parameter outputs. No joined verses, gaps, refitting or diversity exclusion.",
+  "maximum_length": 32,
+  "minimum_length": 8,
+  "nested_baseline": {
+    "path": "reports/modern-contextual-exp015-v1.json",
+    "requirement": "First768observed scores exactly identical because corpus/normalization/family subset coincide. The preparatory known-data replay matched all768scores, witnesses and counts; it is not a new target hypothesis test. Reference seed differs, so previous reference arrays are not reused.",
+    "sha256": "d320a8885ca1d273aede209b62ed21ddac5ae13980906531a74d9fe9ad970741"
+  },
+  "next_after_negative": "Render scoped rien, then proceed to unchanged FAM-006. Never expand this family because it gives no candidate.",
+  "p_formula": "Inclusive(1+whole-family maxima>=observed)/(999+1); both models. Exploratory conditional triage, no overall/adaptive or confirmatory significance.",
+  "parameter_counts": {
+    "pair": 768,
+    "product": 2400,
+    "triple": 3840
+  },
+  "positive_followup": "If full-family alert, immediately freeze all maximizing codes, result/input hashes before empirical follow-up and stop family advancement. Enumerate all ties and literal occurrences, complete description cost, challenge human reuse/translation explanations. A first witness or numerical alert is not a retained candidate. B activates only for internally retained A candidate; any eventual confirmation requires fresh reserved data and external replication.",
+  "pre_execution_checks": {
+    "historical_files_required": false,
+    "known768scores_match": true,
+    "known_batch_index_memory_bytes": 682704896,
+    "known_witnesses_match": true,
+    "prior188frozen_sources_preserved": true,
+    "software_tests_passed": 14,
+    "source_reextraction_complete": true
+  },
+  "prior_target_protocol": "protocol/short-programs-exploration-v1.json",
+  "prior_target_protocol_sha256": "4d121926c9417f73de8e9d86c6a751b805f8d577c878e8fa3c788477cc107bd0",
+  "reference_draws_per_model": 999,
+  "reference_models": [
+    "words: uniformly permute labelled whole words independently within each Greek verse",
+    "word_types: one global uniform bijection within Greek word-type lengths, preserving all repeated occurrences"
+  ],
+  "reference_order": [
+    "words",
+    "word_types"
+  ],
+  "seed": 202609195016,
+  "trial_accounting": {
+    "frozen_families": 9,
+    "future_correction": "All historical and modern tests, normalization/corpus choices, failures and recovery stay counted; nested768codes are not independent. Conditional reference tails do not correct the entire adaptive history. All current inputs exposed.",
+    "new_independent_trials_from_batches": 0,
+    "new_mathematical_families": 0,
+    "preparatory_known_baseline_new_target_tests": 0,
+    "prior_completed": 14,
+    "prior_incomplete": 1,
+    "prior_target_executions": 15,
+    "this_target_execution": 16
+  }
+}

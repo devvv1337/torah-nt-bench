@@ -1,0 +1,83 @@
+{
+  "alphabets": "Zero-based Hebrew אבגדהוזחטיכלמנסעפצקרשת with final forms folded; Greek αβγδεζηθικλμνξοπρστυφχψω under the common normalization. Modulo24 remains unchanged in binary calibration.",
+  "base_classes": 160,
+  "catalog": "Order direction,a-index,b-index,d-index,c; id=((((di*4+ai)*4+bi)*5+di2)*24+c). d-index2 is zero. FAM-006 code r embeds at((r//24)*5+2)*24+r%24; FAM-007 is not wholly nested.",
+  "coefficients": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "counts": "Oriented source starts,160-base indexed starts,Greek starts,20 Greek seed queries per start,compatible base/source/Greek seeds,and formal rule/start pairs=indexed_starts*Greek_starts*24. None is an independent sample count.",
+  "description_code": "12-bit whole-catalog ordinal0..3839 (reject3840..4095), not independently padded parameter fields; decode by fixed mixed-radix divisions. Elias-gamma family8 tag0001000 uses7bits; add length5 and six passage addresses plus decoder/convention/corpus file sizes and hashes. Conditional accounting, no universal minimum-description or divine probability claim.",
+  "directions": [
+    1,
+    -1
+  ],
+  "family_size": 3840,
+  "formula": "g[-2]=g[-1]=0; g[i]=(a*h[i]+b*g[i-1]+d*g[i-2]+c) mod24. One complete (direction,a,b,d,c) across all three passage pairs.",
+  "id": "FAM-008",
+  "independent_algorithm": "For each20 (b,d) pairs build absolute Greek keys D[0]=g[0],D[i]=g[i]-b*g[i-1]-d*g[i-2], with both negative-index outputs0. Enumerate all3840 full codes and match D[i] to a*h[i]+c. Verify extensions by the same difference equation and select triples by independent inclusion-exclusion, with separate parser/catalog. No primary weighted keys or state propagation used for scoring; test both against direct complete-code enumeration.",
+  "initial_state": [
+    0,
+    0
+  ],
+  "intercepts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "lag_coefficients": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "limitations": "Window resets are computational conventions, not historical boundaries. All seven previous families and nine exposed target evaluations remain counted. Overlap d=0 is not replication. No external reserve, certified ancient letters or independent scientific replication.",
+  "maximum_length": 32,
+  "minimum_length": 8,
+  "new_target_explorations": 0,
+  "passage_pairs": 3,
+  "prior_target_check_sha256": "65f575f7515e132fa56ac8ae5935a8acd9a8aa626bb383892ff22f579d21b394",
+  "prior_target_report_sha256": "2f47bd394d3a7c99fbf23c1995ed09d50817a3c08123114b41926f35b252b887",
+  "proposal_sha256": "581eaab7f5a42d099a39ec7f24ca1b20c4a121cae642323a345757d47064646d",
+  "reference_models": "Within-unit labelled word permutation and global same-length word-type bijection; repeat whole-family, position, length and triple selection. Inclusive p=(1+exceedances)/(B+1). No finite-family correction is claimed for indefinitely adaptive family selection.",
+  "resource_bound": {
+    "binary_diagnostic_indexed_starts": 145920,
+    "constant_control_compatible_seed_pairs_upper_bound": 900000,
+    "constant_control_indexed_starts": 12000,
+    "human_background_indexed_starts": 1332640
+  },
+  "resource_failure": "Stop with an incomplete archived attempt; no truncation or favorable subset. Resource changes require an explicit prospective amendment.",
+  "resource_guards": {
+    "max_compatible_seed_pairs": 5000000,
+    "max_indexed_starts": 5000000
+  },
+  "search": "Index all160 bases: z[-2]=z[-1]=E[-2]=E[-1]=0; z[i]=a*h[i]+b*z[i-1]+d*z[i-2]; E[i]=1+b*E[i-1]+d*E[i-2]. Compare seed vectors z[i]-E[i]*z[0] to g[i]-E[i]*g[0] for i1..7. Greek queries depend on20 (b,d) pairs. Infer c=g[0]-a*h[0], verify every seed letter and actual recurrence extension without refitting. Use first-longest group edges and ascending-group augmenting paths.",
+  "semantics": "Reset both output-history states to exactly0 at each oriented source-window start. No free initial state. K outputs consume K contiguous Hebrew letters, entire window oriented before recurrence, extending a window preserves its prefix. No gaps, wrapping, Greek reversal, approximate matches or refitted constants.",
+  "source_scope": "A future source scan can use every simple physical island with>=8 letters, no agreement/diversity/date filtering. This length consequence alone does not authorize a target scan. Calibration uses the declared human input.",
+  "stage": "Definition and calibration only; separate human-control, variant-transfer and target protocols required.",
+  "statistic": "Maximum K8..32 for one fixed complete code on3 distinct source groups and3 distinct Greek groups;0 if absent,32 censored. Keep all3840 observed scores, every positive maximizing parameter code and deterministic literal triple, preserving ties and repeated outputs."
+}

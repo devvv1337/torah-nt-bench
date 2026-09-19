@@ -1,0 +1,23 @@
+{
+  "all_witnesses_and_counts_identical": true,
+  "baseline_sha256": "d320a8885ca1d273aede209b62ed21ddac5ae13980906531a74d9fe9ad970741",
+  "id": "CHECK-MODERN-FAM005-PREPARATION-001",
+  "known768_scores_identical": true,
+  "native_sources": {
+    "contextual_match.cpp": "d30c49a7dce7337ae4d3e66e5749a63d99f0c8a5de47bd4a4944b6042b2284a6",
+    "local_match.cpp": "27e81e6dfdfc1b3a649f976c6bd3731ba5af8ec65809c54826643a3bd0aaa535",
+    "short_programs_batch.cpp": "e8fb5f31a5c781e2c3c5b18c17a60218cbeabe2953990aa60477c78a2d8f8feb"
+  },
+  "new_independent_evidence": 0,
+  "new_target_explorations": 0,
+  "observed_score": 9,
+  "pass_status": true,
+  "protocol_sha256": "196826ac8f7295c2a9e6a346ff50432215e15f2a6ba3a3239119466863f616b5",
+  "raw_path": "data/derived/modern-programs-v1/known-baseline.json",
+  "raw_sha256": "dee7fd64823588020e25f8bea3aaed728a3cd95323465777f434273db6e47321",
+  "software_tests_passed": 14,
+  "timing": "        5.44 real         4.67 user         0.16 sys\n           682704896  maximum resident set size\n                   0  average shared memory size\n                   0  average unshared data size\n                   0  average unshared stack size\n               42209  page reclaims\n                   1  page faults\n                   0  swaps\n                   0  block input operations\n                   0  block output operations\n                   0  messages sent\n                   0  messages received\n                   0  signals received\n                   0  voluntary context switches\n                5912  involuntary context switches\n         18944412870  instructions retired\n         20364613076  cycles elapsed\n           590529448  peak memory footprint\n",
+  "timing_path": "data/derived/modern-programs-v1/known-baseline-timing.txt",
+  "timing_sha256": "a1a5fcce1450946cee58732d79d3462b4d7a6ff0de3a6dd9fb16720e725fd52e",
+  "unselected6240_codes_zero": true
+}

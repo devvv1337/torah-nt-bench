@@ -1,0 +1,1057 @@
+{
+  "definition_sha256": "c5c6eaef0173f922d84395dbe28cb307e66d45ce27acffc9b7cccb0513de5abd",
+  "no_original_score_or_matching_code_included": true,
+  "normalization": "Named historical FAM001 normalization; no current COMMON iota deletion.",
+  "source_entries": [
+    {
+      "bytes": 1315399,
+      "fetched_utc": "2026-09-17T21:24:19.006250+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"637af22c84d1f5101117af81278df10ce353373614e339b453da9f8d9cbc72fc\"",
+        "Last-Modified": null
+      },
+      "id": "oshb/wlc/Deut.xml",
+      "license": "CC-BY-4.0; base WLC public domain",
+      "path": "data/raw/oshb/wlc/Deut.xml",
+      "repository": "openscriptures/morphhb",
+      "revision": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "role": "target_edition_not_sealed",
+      "sha256": "04f8087442a1e67a631cd70f2ac4e42fe0a780ae132edb165a3a29f3f290358f",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Deut.xml"
+    },
+    {
+      "bytes": 1524391,
+      "fetched_utc": "2026-09-17T21:24:19.210809+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"7bce466d2d627e94920b41419eed37bf60d39c01e311eff822fd18ee70811c90\"",
+        "Last-Modified": null
+      },
+      "id": "oshb/wlc/Exod.xml",
+      "license": "CC-BY-4.0; base WLC public domain",
+      "path": "data/raw/oshb/wlc/Exod.xml",
+      "repository": "openscriptures/morphhb",
+      "revision": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "role": "target_edition_not_sealed",
+      "sha256": "04868367cdacb6ccdc61488e923e20f918172042e6437842a0621f63ac5b847f",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Exod.xml"
+    },
+    {
+      "bytes": 1859928,
+      "fetched_utc": "2026-09-17T21:24:18.737999+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"12f759c645c83a502371f1b0c88d14a6c4c16f9a236efd4ab6e63221c694ca00\"",
+        "Last-Modified": null
+      },
+      "id": "oshb/wlc/Gen.xml",
+      "license": "CC-BY-4.0; base WLC public domain",
+      "path": "data/raw/oshb/wlc/Gen.xml",
+      "repository": "openscriptures/morphhb",
+      "revision": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "role": "target_edition_not_sealed",
+      "sha256": "0526e5c9a5fb4d907847645f954ed3d1268fa69decbd872056cedd2668d86449",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Gen.xml"
+    },
+    {
+      "bytes": 1085066,
+      "fetched_utc": "2026-09-17T21:24:18.768022+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"389935a30703896f0d262be253481cf555db50111c27e05c50e087325efa8ee6\"",
+        "Last-Modified": null
+      },
+      "id": "oshb/wlc/Lev.xml",
+      "license": "CC-BY-4.0; base WLC public domain",
+      "path": "data/raw/oshb/wlc/Lev.xml",
+      "repository": "openscriptures/morphhb",
+      "revision": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "role": "target_edition_not_sealed",
+      "sha256": "e21e70265c9ef500182f8ccb4f4e1186e5a79e1169d24cef23cc479baf07b191",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Lev.xml"
+    },
+    {
+      "bytes": 1496830,
+      "fetched_utc": "2026-09-17T21:24:19.166282+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"d9ba161c3d1498d35df39061eaba5ed542e990d52448ed73f2c41a71c96bee7f\"",
+        "Last-Modified": null
+      },
+      "id": "oshb/wlc/Num.xml",
+      "license": "CC-BY-4.0; base WLC public domain",
+      "path": "data/raw/oshb/wlc/Num.xml",
+      "repository": "openscriptures/morphhb",
+      "revision": "3d15126fb1ef74867fc1434be1942e837932691f",
+      "role": "target_edition_not_sealed",
+      "sha256": "02e4febfcc027d10b3e35e4f091eae67a40d26f37b6254faac6b4af053fe4896",
+      "url": "https://raw.githubusercontent.com/openscriptures/morphhb/3d15126fb1ef74867fc1434be1942e837932691f/wlc/Num.xml"
+    },
+    {
+      "bytes": 342330,
+      "fetched_utc": "2026-09-17T21:24:19.684480+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"33be6daf97e15795c1d12a2977e0d79d68c6abbc9f86ec126897c7c0c2bb761b\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/1Cor.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/1Cor.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "5a12d44dd6a9c7c236da21dc85a1d60915c54c988c59ba456f27bf528da1812b",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/1Cor.xml"
+    },
+    {
+      "bytes": 102101,
+      "fetched_utc": "2026-09-17T21:24:20.541731+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"3abe0720a6c2c7e4061aceb83fd1196126f86aa44d69fe513c6dfe55126de4ec\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/1John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/1John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "3786d543f13a83d0e5f3cc1fd645c3b9e240a4c14fd412e0b2fa304d27d4a66b",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/1John.xml"
+    },
+    {
+      "bytes": 85461,
+      "fetched_utc": "2026-09-17T21:24:20.458272+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"5fdd038fd82725dc7cd451fd39ab9ad810f6e816c95ae157cdcfa6aff400c107\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/1Pet.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/1Pet.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "82693ac93851f9f415fa126508f6e893dfb4b2f8131ee953c822a342eb78d5fa",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/1Pet.xml"
+    },
+    {
+      "bytes": 73887,
+      "fetched_utc": "2026-09-17T21:24:19.983576+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"bbbb9bdd843b9f99bee5d8e060b4e4fda9c1d54fe389ac684d35f5dc7ae2ea85\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/1Thess.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/1Thess.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "22a5dcf8e0cc80d06fcb8fcd01aef72860058cfab4b7b42cfa94dd229e2c7065",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/1Thess.xml"
+    },
+    {
+      "bytes": 81717,
+      "fetched_utc": "2026-09-17T21:24:20.128040+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1346595769c3d4e2ab9c4b5ce1c8cda1e07d696ac80d004d3c5bc40d5b573e4b\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/1Tim.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/1Tim.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "7078cf18cf4325e4fb093785da774b48cc8306fd24dd2aa00041335c1bc88efc",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/1Tim.xml"
+    },
+    {
+      "bytes": 222992,
+      "fetched_utc": "2026-09-17T21:24:19.737704+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"25db7a36a8b027549dbce25f9f0344a0292cdff03636fbbaa643f4f7fb3653eb\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/2Cor.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/2Cor.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "897a92f3f010f796b8549e643c0ae96957827020a890808a689c6ba389085a43",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/2Cor.xml"
+    },
+    {
+      "bytes": 12074,
+      "fetched_utc": "2026-09-17T21:24:20.577021+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"f9ffb25ecef79222afdeb58bb74323036cb4cdec5aa012fa6b676446f2f84a94\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/2John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/2John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "132d3e497afb40247097175b9de4a8791de14366a0c5a923ed59f05a7c0d9586",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/2John.xml"
+    },
+    {
+      "bytes": 55525,
+      "fetched_utc": "2026-09-17T21:24:20.446371+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"203502fe45fefba62579dabcb254b69ba00a4da2e5f9407b7ea22f0807dbab84\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/2Pet.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/2Pet.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "59612036f3847ddd1e6f5435b62458a9c1aa7eff4c6fc6107659e980346275b2",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/2Pet.xml"
+    },
+    {
+      "bytes": 40902,
+      "fetched_utc": "2026-09-17T21:24:20.019453+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"721445b842604c3b8c272d0403eee9a2ec327ad43558a89bd4a13f9588df305d\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/2Thess.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/2Thess.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "3b7fbae3d238039f11bb599e1b99139a2d2a8626f293ccefc601d1a50a03d433",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/2Thess.xml"
+    },
+    {
+      "bytes": 62532,
+      "fetched_utc": "2026-09-17T21:24:20.159668+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"62339a57b4c71a8d12632ccd685f1d7e8d34e762f2b6b496c6cc1b9326529305\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/2Tim.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/2Tim.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "6d3add4060e870089d71e4621bcec5cc12759ebb4689fe6864368ae56c76b6fc",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/2Tim.xml"
+    },
+    {
+      "bytes": 11161,
+      "fetched_utc": "2026-09-17T21:24:20.683666+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"55a7d4d46f9b28545d7274e355b9c47951237683589c2c6a269e339bda6bf875\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/3John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/3John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "389c6751dc8e5de45c9173fdd3b499aa8574d425345055723ff2a46b2d8d173f",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/3John.xml"
+    },
+    {
+      "bytes": 921255,
+      "fetched_utc": "2026-09-17T21:24:19.652007+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"3007a07ca04acb703ee8775915a0084093228664d881e98831b1b9feec8f2b71\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Acts.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Acts.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "5040d5a8570ce8f391209f228707c560e83fccc439f364d0a8baf89666025ea3",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Acts.xml"
+    },
+    {
+      "bytes": 79114,
+      "fetched_utc": "2026-09-17T21:24:19.957196+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"0f5ce9f32523386f2ee188856d71e23252ebda70be0224e814d2cd73b77082c1\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Col.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Col.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "87079753db107d3034b8af8a91ccb0495da393389a02df4588cff3a4de4cd837",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Col.xml"
+    },
+    {
+      "bytes": 120457,
+      "fetched_utc": "2026-09-17T21:24:19.858726+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"ce122e68edcc7af5b9456847f4e0f46185911de91a8a9164f063af7edddb3d29\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Eph.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Eph.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "9edf592842f0a94d35790ad999ed51049a19510178bd2b858c3f29849d44df45",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Eph.xml"
+    },
+    {
+      "bytes": 111663,
+      "fetched_utc": "2026-09-17T21:24:19.826540+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1bee4a7064ca4dbfe6b5e30152098f5142e3d6e5230930f065da20e9c64e8591\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Gal.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Gal.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "02188ec87b20a983424693971f2710b7b77c53ae0a7d6c4bd95a7fc293f2f17a",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Gal.xml"
+    },
+    {
+      "bytes": 247580,
+      "fetched_utc": "2026-09-17T21:24:20.338855+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"c7d24dd22123882f64d262b4a40203b03bde73985750c4a42280e39e4af0455e\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Heb.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Heb.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "50ee82c41b032b4b786ca7790eb3ce412865bd80e823d9cfdc22a812a1d6a865",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Heb.xml"
+    },
+    {
+      "bytes": 87475,
+      "fetched_utc": "2026-09-17T21:24:20.368137+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"a5eb459d1430bdc5880e6f6d73dd12e9eccdc08191630f3e8dd535a91eea0109\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Jas.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Jas.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "5cb6fdeefb734ef842e102938f0f10791415276ae09cbd33215a359e1025f7e5",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Jas.xml"
+    },
+    {
+      "bytes": 762321,
+      "fetched_utc": "2026-09-17T21:24:19.537444+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"d6c3852896c68036be0e3ae974c9cce0bde246f04b8481d01742c8eb9609d761\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "11fa4ec61127f109f4582845737963dc66a532e33dca7d489875b9dd91da00e2",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/John.xml"
+    },
+    {
+      "bytes": 23202,
+      "fetched_utc": "2026-09-17T21:24:20.674960+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"b362cfaf69d60cbb2bc2547722ce320aa0c9574b60e2fa30d1db516a1c03e550\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Jude.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Jude.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "b83680c0d23b032273ec0e0c858f3c24ba684114b78ebddb2475dd78aac7165b",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Jude.xml"
+    },
+    {
+      "bytes": 970739,
+      "fetched_utc": "2026-09-17T21:24:19.482005+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"569c202fd3219ad6dd6737291f13a0ea865b6f3ded878f99c46fc4af082e7d92\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Luke.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Luke.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "960c0f7743f6ee68b7ee341991b76e14e83143eac4ba1f2df179327ec4bae8d5",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Luke.xml"
+    },
+    {
+      "bytes": 572329,
+      "fetched_utc": "2026-09-17T21:24:19.352732+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"b7d6b0107ae62695902b63fa482931e2c0506dcff4bad01d8974892f368eb559\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Mark.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Mark.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "5901ccefcd7d9aedfaf228b1f99c3a13f37b4509c1b38d16123a860247a59d76",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Mark.xml"
+    },
+    {
+      "bytes": 909675,
+      "fetched_utc": "2026-09-17T21:24:19.311980+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"58918c47c5549b13ee998b97ac9353c59867596c6a9a4c6ba61136a902064333\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Matt.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Matt.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "98030ff7ddec7d1b89811c912b64e52a6c6a5806048e619abc708fe19a416424",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Matt.xml"
+    },
+    {
+      "bytes": 80931,
+      "fetched_utc": "2026-09-17T21:24:19.915274+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"fdc451674ce273eae896bef1caf1bae05f8c1c805e19cb27303975825d34092e\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Phil.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Phil.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "2f8933cdf0f8f459a6e192ad99c8aa07cb06e94d400875f88e64290bf489ed54",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Phil.xml"
+    },
+    {
+      "bytes": 16865,
+      "fetched_utc": "2026-09-17T21:24:20.318454+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"e766eb4a0581567edac1dddd4a1e16f70dbccce490b15ca22332b92baf0ee013\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Phlm.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Phlm.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "5e055c7dbe6b8326b559f6d7d135a39e6da0b499271f1eec6eae87fd93590ef3",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Phlm.xml"
+    },
+    {
+      "bytes": 474728,
+      "fetched_utc": "2026-09-17T21:24:20.870459+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"9b55ed02a440fabd8b63d3dfd2caee69db848d0ded9ebe1901e120b49f6a7559\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Rev.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Rev.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "f6ba340dfd9010436aac55a17246ed45ef24c6b8e4510dc4bcb62c0a9ac4bc83",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Rev.xml"
+    },
+    {
+      "bytes": 347059,
+      "fetched_utc": "2026-09-17T21:24:19.604876+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"62469ea493e36ab22ee483642915fe324a4ec49647cb3ca4485ef75acfab9809\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Rom.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Rom.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "99f8cced61efe841d146bd1e0c67333d7a4cca78a55e14da8c9390166e0a6209",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Rom.xml"
+    },
+    {
+      "bytes": 33932,
+      "fetched_utc": "2026-09-17T21:24:20.235520+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"6af6515ef8f1cdc51e126157e64b5de16edaa22d058f0f8a1edec19b45323607\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgnt/xml/Titus.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgnt/xml/Titus.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "4c66c26c8ce316056d0423018d3497501e1a9ef033a1fc1ebd5829ba2d177fd9",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgnt/xml/Titus.xml"
+    },
+    {
+      "bytes": 33262,
+      "fetched_utc": "2026-09-17T21:24:21.124370+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"d55cfc9d9ab3f12c858b2754a2a1d15a3096938fc83957c9d57058deffb7ef2b\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/1Cor.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/1Cor.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "07f4396a925927605eb1eb583aa979ecfa28866ce7a69b0346c6555a74a7f253",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/1Cor.xml"
+    },
+    {
+      "bytes": 6302,
+      "fetched_utc": "2026-09-17T21:24:21.791146+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"27f7c54ac7e2dabf8c24e0458f99a48a452e64c4733e334336a2659caf35911c\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/1John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/1John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "d9af0024a9722dba8c61d3fc60fc44155db7bd3fb40f5f3b4230db62f8ec47ec",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/1John.xml"
+    },
+    {
+      "bytes": 8195,
+      "fetched_utc": "2026-09-17T21:24:21.729703+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"b3b2d4500ed8840b672012e96627e1ee3604895682ded3ba6a516c10b9163e03\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/1Pet.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/1Pet.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "638eb96c192f70019bad44bb53b90ae62fc096886cf6a6923ba96b6fc5b50e6e",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/1Pet.xml"
+    },
+    {
+      "bytes": 4920,
+      "fetched_utc": "2026-09-17T21:24:21.413983+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"0f8986c69d0c40f3d2f94b8f1f85026054b3839dfd88996e582b122e82e1432d\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/1Thess.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/1Thess.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "bdec88c3fed39c87abf01d310f8dd1cc7c6fc5bd515b8e2cc0d998a5259c5fab",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/1Thess.xml"
+    },
+    {
+      "bytes": 4540,
+      "fetched_utc": "2026-09-17T21:24:21.477517+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"5d367ce8b6d702562bac3d88ef7b90368f55afabe0f6a97aca6a071f3e77e0d6\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/1Tim.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/1Tim.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "21ef281fb93639a1b4a4772e91d986c9cc6df7355837040e57343bb6b8f38e2f",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/1Tim.xml"
+    },
+    {
+      "bytes": 17050,
+      "fetched_utc": "2026-09-17T21:24:21.135460+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1b0b3c0f89ed255d209cf7370d42e3a508eedda672c844bfbceceb1f14dbbb41\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/2Cor.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/2Cor.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "ef5bbfc060859968c78398abbedfe0b69b21ea4e0d4d8b21744ce6045e984b5d",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/2Cor.xml"
+    },
+    {
+      "bytes": 1404,
+      "fetched_utc": "2026-09-17T21:24:21.828833+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"be916f12c8dea12718b33d2376b7c56027ef26bcfe5690d44292a3efe3b8022a\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/2John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/2John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "be181bbc21d25415543b9e2f809ae7e4803e44fc8709b4695481e0047eee3af3",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/2John.xml"
+    },
+    {
+      "bytes": 4797,
+      "fetched_utc": "2026-09-17T21:24:21.761368+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1a991da50da8a2c420b5a0f8d34f4a7f2f6fd8989fe61dd024e0695dc19f501d\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/2Pet.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/2Pet.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "015085123c3052124c8140bef4a90dc021911d155852ecb7f94ccf42305c63fa",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/2Pet.xml"
+    },
+    {
+      "bytes": 3107,
+      "fetched_utc": "2026-09-17T21:24:21.409956+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"3d5c1091d62bc72e2217bf397eb37c309ca10d02564066b4af6d9b33e3ecac44\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/2Thess.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/2Thess.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "fa01c818c621b62c73d88b738bbe37b4b5e70e942779b2d5dd619792fe2e664b",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/2Thess.xml"
+    },
+    {
+      "bytes": 4093,
+      "fetched_utc": "2026-09-17T21:24:21.490248+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"49393e68a20665d2c46550b68aa7e805c7a740696b86534a569f82a65cf88dc6\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/2Tim.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/2Tim.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "81c8c82ca62c375adcc1334483f879b9894b6bc9afc1b0dfcdd130f836bc38dc",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/2Tim.xml"
+    },
+    {
+      "bytes": 921,
+      "fetched_utc": "2026-09-17T21:24:21.932933+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"5ad7d5abb3cc478278ff53f9b197ba6b360623c63155950d4b97903bbc99b76f\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/3John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/3John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "c269bf3705e06f96ac907fc2d81433272f4e472972d3c2de0e8ac993404f5e6b",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/3John.xml"
+    },
+    {
+      "bytes": 100556,
+      "fetched_utc": "2026-09-17T21:24:20.990431+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"5af4d7bbb221a923ed01fb0eb26e1bf7596d5e4513b383fbd3f68d6e2b0e11a9\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Acts.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Acts.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "d7f74cc019eecacdaf349e6a125de89dbabc713a7d444890c7598761ef261fbe",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Acts.xml"
+    },
+    {
+      "bytes": 6618,
+      "fetched_utc": "2026-09-17T21:24:21.313044+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"267f4164179740f9509fe268b911ec64c8cc6501ba001140e1ad1bf90153ef2f\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Col.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Col.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "56aabef0572d4bc4481e245c2f8b42e30eadf0bd7506c39f9b559dc9a56f86cd",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Col.xml"
+    },
+    {
+      "bytes": 8950,
+      "fetched_utc": "2026-09-17T21:24:21.227815+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"aad668eb184ac6099e8e42a4d9fd7b5a81c61a3df8edea00a14a7b94b075df29\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Eph.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Eph.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "a1db24ac35b9e6594be26c0564ccf942d5703ca6aa75633af3a605ce87b696ea",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Eph.xml"
+    },
+    {
+      "bytes": 8500,
+      "fetched_utc": "2026-09-17T21:24:21.180465+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1ec5d3b5538b41b6e545342401d7fc53d05083beee7a7639e95064d731a3c080\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Gal.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Gal.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "634a02a334c8a039e5ab24311836d903ef8768eb07d086589ecc3d1fabd2d4e5",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Gal.xml"
+    },
+    {
+      "bytes": 15120,
+      "fetched_utc": "2026-09-17T21:24:21.678066+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"6a49d1cb59548afe96bed72f92909f99b6d4797f117531014a404001bd05a24a\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Heb.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Heb.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "b4222054f4adfeca8751f927f33200cc1344c8189ba455db24053a2575129a59",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Heb.xml"
+    },
+    {
+      "bytes": 8346,
+      "fetched_utc": "2026-09-17T21:24:21.684683+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"46dade0dc9a3a6997faab77c92c8a6fb5085796200923d8804fe1c75b2fd8bce\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Jas.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Jas.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "0548050efc98e5daab506c0743f86df20bc5a3ff2dc4e241152645a6facf6dbf",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Jas.xml"
+    },
+    {
+      "bytes": 73234,
+      "fetched_utc": "2026-09-17T21:24:20.962420+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"8f75100f61b094cb3d9ab4030e793c4670234c706a63e1570f46d8be4bea688e\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/John.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/John.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "9be56ef52ab655bcb0abf8880db529232f800d592623226b322ae06d4d074baa",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/John.xml"
+    },
+    {
+      "bytes": 2547,
+      "fetched_utc": "2026-09-17T21:24:21.941208+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"5c0cb12b18b0fef1d6c7b4ebffdeed48942b406f50c2ea53a6b4bc8ba475bf2c\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Jude.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Jude.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "930d0f648963cb13282c14d9b1d9fae030a509016c83cfd244311eefbad45a8c",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Jude.xml"
+    },
+    {
+      "bytes": 109267,
+      "fetched_utc": "2026-09-17T21:24:20.918901+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"96ee4ab6765a1035369ee63b2ad234fcd71e03cd3381a747200840fa42b7e9b0\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Luke.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Luke.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "392b3aefbefd625f35cf437d59ab07cc139992352435e8c0dc770b3642cf27f4",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Luke.xml"
+    },
+    {
+      "bytes": 92189,
+      "fetched_utc": "2026-09-17T21:24:20.830507+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"ff7a93ec01df2a13962e69596d6a266641086b8d57f1709bb466ceed531bdb4b\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Mark.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Mark.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "119360f19dfafe085c5aa11e869087eaac84d710b72520813977e25d24b1c433",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Mark.xml"
+    },
+    {
+      "bytes": 82492,
+      "fetched_utc": "2026-09-17T21:24:20.754332+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"74c026e6dcafbc2490f1f5b9ac24a9874864c4ae37c07e390fc23e027c4e4aa4\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Matt.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Matt.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "c10a68e83f2506f974d7b5b450416fa10cc9acff3c64adee136349449881d40e",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Matt.xml"
+    },
+    {
+      "bytes": 5114,
+      "fetched_utc": "2026-09-17T21:24:21.262973+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"1657253cf5d0bfee0973f2459dee19aad0feea5e4fc7d0dc825122119be6a508\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Phil.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Phil.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "e75c419a71c89b9e77730875d725e4531a444bde307363b2f3fd2871b88d989a",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Phil.xml"
+    },
+    {
+      "bytes": 1679,
+      "fetched_utc": "2026-09-17T21:24:21.565253+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"203dba1b805370d4dd259032e56e4c2abeec162923a34ce88bd9ee8f563cfe3e\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Phlm.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Phlm.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "2406a25632e7971cf0a033d1d2bca5534e343ca6f5828b99ca9cc302014c80f1",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Phlm.xml"
+    },
+    {
+      "bytes": 41406,
+      "fetched_utc": "2026-09-17T21:24:22.033190+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"d014ef2611a4f823554d0c0c55cdefcb8af5351417e702abd7d62002b5caec1f\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Rev.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Rev.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "dee80ff5c402f74c08c853431ec03c4dd101ed203e86033bbf96fd716e88ff87",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Rev.xml"
+    },
+    {
+      "bytes": 23221,
+      "fetched_utc": "2026-09-17T21:24:21.014224+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"22b9ba7d183ddb6ac7f33af979dbd5d03fc08ccf87d54c0bb367cd78a9a07c54\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Rom.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Rom.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "fa7542d22d9ac14a5d94162aa1747258ccd2e957b252f013cbd871c608258140",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Rom.xml"
+    },
+    {
+      "bytes": 2265,
+      "fetched_utc": "2026-09-17T21:24:21.516219+00:00",
+      "headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"72ff5bbeb5d64fdf67d2888c71e64d8568aa46cd49b28b129fb258cbac129b1d\"",
+        "Last-Modified": null
+      },
+      "id": "sblgnt/data/sblgntapp/xml/Titus.xml",
+      "license": "CC-BY-4.0",
+      "path": "data/raw/sblgnt/data/sblgntapp/xml/Titus.xml",
+      "repository": "Faithlife/SBLGNT",
+      "revision": "c4d241a9c1c479a55b989ba35a4976c1d0b8052c",
+      "role": "target_edition_and_editorial_apparatus_not_sealed",
+      "sha256": "d9b937f57271c59dba745d9daa316e9e8ae87dc614a6e0f0193c5f87b999a997",
+      "url": "https://raw.githubusercontent.com/Faithlife/SBLGNT/c4d241a9c1c479a55b989ba35a4976c1d0b8052c/data/sblgntapp/xml/Titus.xml"
+    }
+  ],
+  "source_manifest_sha256": "a4b78083eb37fa4e9b658d08566b8552dc169e7b51ef9452b2c5401cd7d44779",
+  "texts": {
+    "nt": {
+      "books": [
+        "Matt",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Rom",
+        "1Cor",
+        "2Cor",
+        "Gal",
+        "Eph",
+        "Phil",
+        "Col",
+        "1Thess",
+        "2Thess",
+        "1Tim",
+        "2Tim",
+        "Titus",
+        "Phlm",
+        "Heb",
+        "Jas",
+        "1Pet",
+        "2Pet",
+        "1John",
+        "2John",
+        "3John",
+        "Jude",
+        "Rev"
+      ],
+      "letters": 687379,
+      "sha256": "be8066c74edaa4cf846b589d460bf44d0a1274292d4ac9cb77ede947b5a25f20"
+    },
+    "torah": {
+      "books": [
+        "Gen",
+        "Exod",
+        "Lev",
+        "Num",
+        "Deut"
+      ],
+      "letters": 304850,
+      "sha256": "fe3d9223501d3af19a5e7208835b213dac833192b00354fe741d882dc9d42b8e"
+    }
+  }
+}

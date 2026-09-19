@@ -1,0 +1,31 @@
+{
+  "id": "FAM-005",
+  "stage": "Definition, software verification and calibration only; separate human-control and target protocols are required before those stages.",
+  "alphabets": "Zero-based Hebrew ranks אבגדהוזחטיכלמנסעפצקרשת with finals folded, Greek ranks αβγδεζηθικλμνξοπρστυφχψω, common-policy Greek normalization. All arithmetic uses nonnegative residues modulo24.",
+  "directions": [1, -1],
+  "nonzero_coefficients": [-2, -1, 1, 2],
+  "linear_coefficients_with_zero": [-2, -1, 0, 1, 2],
+  "product_coefficients": [-1, 1],
+  "intercepts": "Every integer 0..23, fixed across all passages",
+  "grammar": [
+    {"kind": "pair", "span": 2, "formula": "a*h_i+b*h_(i+1)+intercept", "coefficients": "a,b in nonzero_coefficients", "rule_ids": "0..767, exactly the existing FAM-004 IDs", "count": 768},
+    {"kind": "triple", "span": 3, "formula": "a*h_i+b*h_(i+1)+t*h_(i+2)+intercept", "coefficients": "a,t in nonzero_coefficients; b in linear_coefficients_with_zero", "rule_ids": "768..4607, nested order direction,a-index,b-index,t-index,intercept", "count": 3840},
+    {"kind": "product", "span": 2, "formula": "p*h_i*h_(i+1)+a*h_i+b*h_(i+1)+intercept", "coefficients": "p in product_coefficients; a,b in linear_coefficients_with_zero", "rule_ids": "4608..7007, nested order direction,p-index,a-index,b-index,intercept", "count": 2400}
+  ],
+  "family_size": 7008,
+  "base_classes": 292,
+  "semantics": "Orient the entire contiguous source unit before evaluating consecutive windows. K output letters use K+span-1 source letters. A zero middle coefficient in the triple still consumes a contiguous span of three and advances by one source letter; it does not authorize arbitrary gaps. No source wrapping, Greek reversal, errors, free substitution tables or adaptive arithmetic constants.",
+  "minimum_length": 8,
+  "maximum_length": 32,
+  "passage_pairs": 3,
+  "statistic": "Maximum K in 8..32 at which ONE fixed program including opcode, all coefficients, intercept and direction predicts three pairs with distinct source groups and distinct Greek groups. Score0 if absent, 32 censored. Full selection across all 7008 programs is repeated in every reference.",
+  "ties_and_duplicates": "Keep every parameter code, every positive maximizing rule ID and its deterministic matching triple. No deduplication based on observed text or favorable semantics. Pair IDs are declared nested FAM-004 baseline, not independent replication. At fixed orientation and span, distinct coefficient functions can be distinguished on 0/1 inputs; spans have different output lengths, and opposite whole-unit directions differ in general for K>=8. Retain incidental equal outputs, constant predictions and all ex aequo.",
+  "search_and_order": "Index every legal source prediction start for all 292 base classes using relative modulo24 output differences at length8; a Greek seed determines its single intercept. Scan Greek unit/start then source base-class/unit/start. For each rule/group pair keep the first longest hit, then ascending-group augmenting paths select a size-three matching at the greatest possible K. Fixed formulas and lack of diversity filters make longest-edge compression valid for all shorter prefixes.",
+  "reported_counts": "Report source starts separately for spans2 and3, indexed starts by opcode, all 7008 observed scores, three opcode maxima and the overall maximum. For EVERY randomized corpus archive the overall and three opcode maxima; overall must equal their maximum. Formal program/start counts equal indexed_source_starts*Greek_starts*24, not independent trials.",
+  "references": "Existing within-unit labelled word permutation and one global length-preserving word-type bijection, preserving groups and current common-policy boundaries. Inclusive p=(1+reference maxima>=observation)/(B+1). The whole grammar is reselected, never just the observed winning opcode.",
+  "description_code": "Two-bit opcode tag, one direction bit, fixed coefficient indices and five intercept bits. Pair parameter code totals12 bits; triple/product each15 bits. Invalid tag/coefficient/intercept codes are rejected. Add five length bits, six unit/start addresses, decoder, alphabet, normalization, corpus and protocol costs. This is an explicit conditional code, not a shortest-program or divine-origin probability claim.",
+  "resource_guards": "At most 5000000 indexed source prediction starts and 5000000 compatible source-base/Greek seed pairs per scan; explicit failure, never truncation. Known length-only bound: three 34-letter constant sources and three 32-letter destinations produce 22296 indexed starts and 1672200 compatible pairs, so the repetition control fits this prospective guard. Guards are not inherited silently from FAM-004.",
+  "limitations": "Only this finite arithmetic grammar, not all short programs, variable-length encodings, semantic translation, approximate correspondence, historically independent corpora or a sealed reserve. Conditional reference p-values do not correct unlimited adaptive exploration over newly chosen grammars.",
+  "registration": "Local freeze before implementation or execution; previously exposed data and six target evaluations remain counted.",
+  "new_target_explorations": 0
+}

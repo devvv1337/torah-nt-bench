@@ -1,0 +1,93 @@
+{
+  "cancelled_extension": {
+    "calibration_registered": false,
+    "codes": 6912,
+    "drafts_archived": {
+      "biblelab/block_affine_calibration.py": {
+        "archived_as": "registry/abandoned/block-affine-calibration-2026-09-19/block_affine_calibration.py",
+        "sha256": "d409cb9ac973cedffb13ec2bff81c2ed98d79c0a0072a41bf6fe89e316ba4ee3"
+      },
+      "biblelab/durable_process.py": {
+        "archived_as": "registry/abandoned/block-affine-calibration-2026-09-19/durable_process.py",
+        "sha256": "1817969968afd842aeb1ab5caf9bfe6d16ef1b963ddb8ec3293a6a7859aa9d86"
+      }
+    },
+    "family_registered": false,
+    "name": "block-affine"
+  },
+  "created_utc": "2026-09-19T16:24:51.190315+00:00",
+  "families": [
+    {
+      "definition_path": "protocol/positional-affine-v1.1.json",
+      "definition_sha256": "c5c6eaef0173f922d84395dbe28cb307e66d45ce27acffc9b7cccb0513de5abd",
+      "id": "FAM-001"
+    },
+    {
+      "definition_path": "protocol/local-substitution-v1.json",
+      "definition_sha256": "e333832e7987c084d07e32603d24a76148d0605c89a10474abdd69bca4daf1ab",
+      "id": "FAM-002"
+    },
+    {
+      "definition_path": "protocol/shared-substitution-v1.json",
+      "definition_sha256": "d0129817b4bf13b4203453d039bb24ceca28bd5d3cf8b1e34918e3ee489cfd65",
+      "id": "FAM-003"
+    },
+    {
+      "definition_path": "protocol/contextual-affine-v1.json",
+      "definition_sha256": "923304690a66c3c268ca63b1cda08f484e8f3de39a4971dd7740a9a4f4fcd895",
+      "id": "FAM-004"
+    },
+    {
+      "definition_path": "protocol/short-programs-v1.json",
+      "definition_sha256": "9bbf141280fcd5878e38a7c156757d9006e4516efa115d560e565065a9091c6e",
+      "id": "FAM-005"
+    },
+    {
+      "definition_path": "protocol/stateful-v1.json",
+      "definition_sha256": "da182976ccdf9578721f466f3a78653615e9b3e9b54bfbf9033fc950cb79155c",
+      "id": "FAM-006"
+    },
+    {
+      "definition_path": "protocol/alternating-v1.json",
+      "definition_sha256": "bdf7b03ee466b79c81202549eb83cc69d4a1258a72dc968fafa59d8388c792ea",
+      "id": "FAM-007"
+    },
+    {
+      "definition_path": "protocol/second-order-v1.json",
+      "definition_sha256": "d5618ab66b1fe45723df551a3a8b6f0aad581e7b15c25ebadd15bfbca77ee484",
+      "id": "FAM-008"
+    },
+    {
+      "definition_path": "protocol/block-radix-v1.json",
+      "definition_sha256": "73412379f324b8ccb3c311f32b3ba3b88987c221ae7575c1873cc81eaf65c2fd",
+      "id": "FAM-009"
+    }
+  ],
+  "frozen_family_count": 9,
+  "goal_achieved": false,
+  "goal_status": "active",
+  "id": "FAMILY-LIST-001",
+  "later_amendment": "Any new family or extension requires a dated amendment before computation; all attempted definitions, extensions and target selections enter future candidate multiplicity accounting. Never automatically expand a family after zero candidates.",
+  "mandatory_deliverables_in_order": [
+    "Nine-family verdict table",
+    "Calibration sensitivity crossed with exact gap-free DSS support counts",
+    "EXP001 coded from scratch and executed in a separate task"
+  ],
+  "no_new_family_or_extension_before_all_deliverables": true,
+  "target_evaluation_count": 11,
+  "targets_already_executed": [
+    "EXP-001",
+    "EXP-002",
+    "EXP-003",
+    "EXP-004",
+    "EXP-005",
+    "EXP-006",
+    "EXP-007",
+    "EXP-008",
+    "EXP-009",
+    "EXP-010",
+    "EXP-011"
+  ],
+  "uncertainty": "Neither nine-family bookkeeping nor a simple factor9 repairs previous adaptive selection; future valid correction must include the relevant search history or use fresh reserved validation.",
+  "verdict_policy": "Three labels only: impossible à tester au regard des témoins manuscrits; rien sur les éditions modernes; ouverte. Explain scope and necessary support thresholds. Missing defensible verdict is non-testability, never a reason to expand."
+}

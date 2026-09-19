@@ -1,0 +1,24 @@
+{
+  "id": "FAM-003",
+  "name": "One shared injective table across three separated local passage pairs",
+  "stage": "Definition and calibration only; target selection and target execution require a separate frozen protocol",
+  "minimum_length": 16,
+  "maximum_length": 32,
+  "passage_pairs": 3,
+  "directions": [1, -1],
+  "rule": "A partial injective source-letter to Greek-letter table, undefined outside its explicit domain, and one shared source reading direction. All three pairs must obey this same table. No position stride, anagram, substitution error, omitted letter or per-passage remapping.",
+  "statistic": "Largest common match length k in 16..32 for which three compatible pairs exist. The three pairs have distinct left group IDs and distinct right group IDs. Each matched source piece contains at least min(8,K) distinct symbols, where K is the fixed input source alphabet size. Score 0 when no admissible triple exists; 32 is censored at the declared cap.",
+  "groups": "Physical source verse labels must group repeated witnesses of the same Hebrew verse in any later target run; target Greek verse labels group all overlapping windows of the same verse. Human controls and synthetic calibrations declare group IDs explicitly. Different groups are not assumed statistically independent or different in wording.",
+  "complete_search": "Enumerate all local start pairs compatible at length 16 in both directions. For every k from 32 down to 16, retain pairs whose maximal extension reaches k and infer the table from exactly that prefix. Pairwise compatibility of partial bijections plus distinct group IDs forms a graph; any triangle is a valid shared table triple. Include shorter compatible prefixes even when maximal extensions disagree. Stop only once a triangle at the largest feasible k is found.",
+  "ties": "Return the first witness in deterministic coordinate order at the maximal k; do not claim a unique maximizing table or count this witness as uniquely discovered. Preserve input, code and full scan accounting so other ties remain reconstructible.",
+  "reference_models": {
+    "words": "Independently uniformly permute labelled word tokens within each right-side unit, preserving each unit's word multiset and all words internally.",
+    "word_types": "For each word length, uniformly permute the vocabulary of distinct right-side word types; apply that one bijection to every occurrence in all units. This preserves boundaries, token lengths, word-type equality, repeated phrases and the frequency spectrum, but can change the frequency assigned to a particular lexical word. It does not certify a universal human-authorship model."
+  },
+  "p_value": "Inclusive (1 + number of reference scores >= observed)/(B+1), with the entire shared-table and passage search repeated for each reference corpus. Report both models separately; no best-reference selection.",
+  "screen_proposal": "Common length >=24 and p<=0.01 under both models; exploratory screen only, not confirmation, historical robustness or divine-origin evidence. Final target protocol must additionally specify witness transfer, provenance and trial accounting before use.",
+  "cost": "Charge the rule decoder, alphabet/normalization, partial-table domain and image assignments, shared direction, common length, all six positions and unit/group choices, and all input/selection protocols. No absolute Kolmogorov complexity claim.",
+  "resource_guard": "Stop with an explicit error instead of truncating if compatible length-16 start pairs exceed 1000000 or pairwise compatibility checks exceed 50000000 in a scan. A stopped scan yields no statistical conclusion.",
+  "limitations": "This bounded family cannot detect arbitrary rules, translation semantics, inexact encodings or genuinely long-range noncontiguous relations. Multiple local matches and two transcription versions are not independent replications.",
+  "new_target_explorations": 0
+}

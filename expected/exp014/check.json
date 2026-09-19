@@ -1,0 +1,43 @@
+{
+  "all_input_units_and_crosswalk_reconstructed": true,
+  "candidate_retained": false,
+  "candidate_review_required": false,
+  "declared_seed_reproduces_all_four_saved_inputs": true,
+  "id": "CHECK-EXP-014",
+  "independent_scientific_replication": false,
+  "method": "Python complete literal table union/triple enumeration, distinct from native compatibility graph; full observed maximum and four reference scans; all saved tails recomputed.",
+  "numerical_alert": false,
+  "observed": {
+    "compatible_seed_pairs": 10270,
+    "score": 16
+  },
+  "pass_status": true,
+  "reference_scans_independently_reexecuted": 4,
+  "reference_scans_not_independently_reexecuted": 394,
+  "references": [
+    {
+      "compatible_seed_pairs": 13140,
+      "label": "word_types_first",
+      "score": 0
+    },
+    {
+      "compatible_seed_pairs": 15554,
+      "label": "word_types_last",
+      "score": 16
+    },
+    {
+      "compatible_seed_pairs": 10214,
+      "label": "words_first",
+      "score": 0
+    },
+    {
+      "compatible_seed_pairs": 10376,
+      "label": "words_last",
+      "score": 0
+    }
+  ],
+  "report_sha256": "6d8285a7e614015fc43244af25ec7674563207b813bcc0a6ced58ad4bd52c101",
+  "seed_replay_is_independent_rng": false,
+  "source_files_verified": 32,
+  "verdict": "rien"
+}

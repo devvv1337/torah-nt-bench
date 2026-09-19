@@ -1,0 +1,23 @@
+{
+  "base_begin": 0,
+  "base_end": 32,
+  "baseline_report": "reports/modern-contextual-exp015-v1.json",
+  "baseline_sha256": "d320a8885ca1d273aede209b62ed21ddac5ae13980906531a74d9fe9ad970741",
+  "cap": 32,
+  "checks": "All768known scores, max, seed count, indexing count, winner parameters and coordinates exactly reproduced; unselected codes768..7007remain zero. No new Greek comparison for the other programs.",
+  "created_utc": "2026-09-19T21:27:15.246531+00:00",
+  "draws": 0,
+  "id": "PREP-MODERN-FAM005-001",
+  "input_path": "data/derived/modern-programs-v1/input.txt",
+  "input_sha256": "f186da3c742e53e5889da38416fc59aabd5952a79147bce5cc20eaf9078a3614",
+  "minimum": 8,
+  "native_sources": {
+    "contextual_match.cpp": "d30c49a7dce7337ae4d3e66e5749a63d99f0c8a5de47bd4a4944b6042b2284a6",
+    "local_match.cpp": "27e81e6dfdfc1b3a649f976c6bd3731ba5af8ec65809c54826643a3bd0aaa535",
+    "short_programs_batch.cpp": "e8fb5f31a5c781e2c3c5b18c17a60218cbeabe2953990aa60477c78a2d8f8feb"
+  },
+  "new_target_explorations": 0,
+  "purpose": "Verify batch0against already exposed EXP015 before starting any new FAM005 target exploration.",
+  "seed": 202609195015,
+  "software_tests_passed": 14
+}

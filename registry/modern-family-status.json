@@ -1,0 +1,88 @@
+{
+  "families": [
+    {
+      "id": "FAM-001",
+      "name": "Positions globales, 3 072 règles",
+      "definition_path": "protocol/positional-affine-v1.1.json",
+      "definition_sha256": "c5c6eaef0173f922d84395dbe28cb307e66d45ce27acffc9b7cccb0513de5abd",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-001"
+    },
+    {
+      "id": "FAM-002",
+      "name": "Substitution locale injective",
+      "definition_path": "protocol/local-substitution-v1.json",
+      "definition_sha256": "e333832e7987c084d07e32603d24a76148d0605c89a10474abdd69bca4daf1ab",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-012"
+    },
+    {
+      "id": "FAM-003",
+      "name": "Même substitution sur trois passages",
+      "definition_path": "protocol/shared-substitution-v1.json",
+      "definition_sha256": "d0129817b4bf13b4203453d039bb24ceca28bd5d3cf8b1e34918e3ee489cfd65",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-014 (resource-only recovery of incomplete EXP-013)"
+    },
+    {
+      "id": "FAM-004",
+      "name": "Deux voisins, 768 règles",
+      "definition_path": "protocol/contextual-affine-v1.json",
+      "definition_sha256": "923304690a66c3c268ca63b1cda08f484e8f3de39a4971dd7740a9a4f4fcd895",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-015"
+    },
+    {
+      "id": "FAM-005",
+      "name": "Programmes courts, 7 008 règles",
+      "definition_path": "protocol/short-programs-v1.json",
+      "definition_sha256": "9bbf141280fcd5878e38a7c156757d9006e4516efa115d560e565065a9091c6e",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-016"
+    },
+    {
+      "id": "FAM-006",
+      "name": "Mémoire d’ordre un, 768 règles",
+      "definition_path": "protocol/stateful-v1.json",
+      "definition_sha256": "da182976ccdf9578721f466f3a78653615e9b3e9b54bfbf9033fc950cb79155c",
+      "A_modern_verdict": "rien",
+      "A_modern_experiment": "EXP-017"
+    },
+    {
+      "id": "FAM-007",
+      "name": "Constantes alternées, 18 432 règles",
+      "definition_path": "protocol/alternating-v1.json",
+      "definition_sha256": "bdf7b03ee466b79c81202549eb83cc69d4a1258a72dc968fafa59d8388c792ea",
+      "A_modern_verdict": "ouverte",
+      "A_modern_experiment": null
+    },
+    {
+      "id": "FAM-008",
+      "name": "Mémoire d’ordre deux, 3 840 règles",
+      "definition_path": "protocol/second-order-v1.json",
+      "definition_sha256": "d5618ab66b1fe45723df551a3a8b6f0aad581e7b15c25ebadd15bfbca77ee484",
+      "A_modern_verdict": "ouverte",
+      "A_modern_experiment": null
+    },
+    {
+      "id": "FAM-009",
+      "name": "Blocs 3→2, 4 608 règles",
+      "definition_path": "protocol/block-radix-v1.json",
+      "definition_sha256": "73412379f324b8ccb3c311f32b3ba3b88987c221ae7575c1873cc81eaf65c2fd",
+      "A_modern_verdict": "ouverte",
+      "A_modern_experiment": null
+    }
+  ],
+  "summary": {
+    "candidates": 0,
+    "cumulative_completed_target_executions": 16,
+    "cumulative_incomplete_target_executions": 1,
+    "cumulative_target_executions": 17,
+    "frozen_families": 9,
+    "ouverte": 3,
+    "rien": 6
+  },
+  "B": "waiting_for_A_candidate",
+  "cancelled_6912_extension": true,
+  "scope": "Curated public index, not original full local registry or external timestamp. All exposed trials, failures and recoveries remain counted. Ten EXP016 batches form one evaluation."
+}

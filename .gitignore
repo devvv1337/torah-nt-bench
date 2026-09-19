@@ -1,0 +1,7 @@
+data/
+__pycache__/
+*.pyc
+registry/events.jsonl
+replication/exp001-independent/*.bin
+replication/exp001-independent/engine
+reproduction/
